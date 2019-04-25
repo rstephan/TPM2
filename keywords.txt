@@ -1,0 +1,7 @@
+TPM2	KEYWORD1
+
+sendData	KEYWORD2
+sendCommand	KEYWORD2
+sendAck	KEYWORD2
+registerRxData	KEYWORD2
+update	KEYWORD2
