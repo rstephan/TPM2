@@ -1,8 +1,8 @@
 # TPM2 Arduino library
 
 TPM2 is a protocol designed for LED (matrices) communications.
-Details about TPM2 can be found [here](https://www.ledstyles.de/index.php?thread/18969-tpm2-protokoll-zur-matrix-lichtsteuerung/) (german).
-This is a generic Arduino implementation of the protocol, is uses the serial part only, also called TPM2.serial. It should work on any
+Details about TPM2 can be found [here](https://www.ledstyles.de/index.php?thread/18969-tpm2-protokoll-zur-matrix-lichtsteuerung/) (german) or [here](https://gist.github.com/jblang/89e24e2655be6c463c56) (english).
+This is a generic Arduino implementation of the protocol, it uses the serial part only, also called TPM2.serial. It should work on any
 Arduino.
 
 If you are searching for network support, take a look at the alternatives below.
