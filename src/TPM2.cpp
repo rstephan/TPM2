@@ -50,7 +50,7 @@ void TPM2::sendIntern(uint8_t type, uint8_t* data, uint16_t len)
 {
   mSer->write(TPM2_START);
   mSer->write(type);
-  mSer->write(len >> 16);
+  mSer->write(len >> 8);
   mSer->write(len & 0xFF);
   mSer->write(data, len);
   mSer->write(TPM2_END);
