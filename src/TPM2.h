@@ -32,7 +32,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 typedef void (*TpmCallback)(uint8_t* data, uint16_t len);
 
-typedef enum {WAIT_SYNC, HEADER1, HEADER2, HEADER3, HEADER4, DATA, END} States;
+typedef enum {WAIT_SYNC, HEADER1, HEADER2, HEADER3, DATA, END} States;
 typedef enum {TYPE_DATA, TYPE_COMMAND, TYPE_RESPONSE} Types;
 
 
